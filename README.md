@@ -1,7 +1,5 @@
 # 25MCI10266_SahilGupta_25MAM_KAR-1_DBMS
 
-
-
 ```sql
 CREATE TABLE Employees (
     emp_id INT PRIMARY KEY,
@@ -44,7 +42,7 @@ WHERE e1.manager_id IS NOT NULL;
 
 ### OUTPUT
 <img width="538" height="301" alt="1" src="https://github.com/user-attachments/assets/0ea437f3-2b3f-426c-a2ad-6017b9b9dc9f" />
----
+
 
 ## Question 2 answer 
 ### Write an SQL query to find the second highest salary from an Employee table having columns
@@ -60,5 +58,4 @@ WHERE salary = (
 ```
 ### OUTPUT
 <img width="445" height="155" alt="2" src="https://github.com/user-attachments/assets/4afbf354-85cd-45dc-ba36-daa9a75ed58e" />
----
 
