@@ -25,8 +25,8 @@ INSERT INTO Employees VALUES
 ```
 
 
-## Question 1 Answer :
-### Write a SQL query to find all unique pairs of employees who report to the same manager.
+## Question 1: Write a SQL query to find all unique pairs of employees who report to the same manager.
+### Answer:
 
 ```sql
 SELECT 
@@ -44,8 +44,8 @@ WHERE e1.manager_id IS NOT NULL;
 <img width="538" height="301" alt="1" src="https://github.com/user-attachments/assets/0ea437f3-2b3f-426c-a2ad-6017b9b9dc9f" />
 
 
-## Question 2 answer 
-### Write an SQL query to find the second highest salary from an Employee table having columns
+## Question 2: Write an SQL query to find the second highest salary from an Employee table having columns 
+### Answer:
 
 ```sql
 SELECT emp_name, salary
