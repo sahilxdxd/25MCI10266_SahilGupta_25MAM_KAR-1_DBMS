@@ -41,9 +41,8 @@ JOIN Employees e2
 WHERE e1.manager_id IS NOT NULL;
 ```
 
-### Output
-![](images/1.png)
-
+### OUTPUT
+<img width="538" height="301" alt="1" src="https://github.com/user-attachments/assets/0ea437f3-2b3f-426c-a2ad-6017b9b9dc9f" />
 ---
 
 ## Question 2 answer 
@@ -57,4 +56,7 @@ WHERE salary = (
     WHERE salary < (SELECT MAX(salary) FROM Employees)
 );
 ```
+### OUTPUT
+<img width="454" height="170" alt="2" src="https://github.com/user-attachments/assets/6e014f0c-cdff-4170-b52c-1e89f71b5318" />
+---
 
